@@ -1,0 +1,14 @@
+Build a matrix with a checkerboard pattern: let bi,j=720720
+ if i+j
+ is even, and 720720+a4i,j
+ otherwise. The difference between two adjacent cells is obviously a fourth power of an integer. We choose 720720
+ because it is lcm(1,2,…,16)
+. This ensures that bi,j
+ is a multiple of ai,j
+, because it is either 720720
+ itself or the sum of two multiples of ai,j
+.
+
+Complexity: O(nm)
+.
+
